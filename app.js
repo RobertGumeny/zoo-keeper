@@ -165,3 +165,115 @@ class Octopus { // NOTE Octopus
   }
 }
 
+class Parrot { // NOTE Parrot
+  constructor(name = '', color ='', gender = '', weight = 0, catchPhrase = ''){
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.weight = weight
+    this.catchPhrase = catchPhrase
+  }
+}
+
+class Quail { // NOTE Quail 
+  constructor(name = '', color = '', gender = '', wingspan = '', weight = 0) {
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.wingspan = wingspan
+    this.weight = weight
+  }
+}
+
+class Rat { // NOTE Rat
+  constructor(name = '', color = 'gray', gender = '', weight = 0, favFood = ''){
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.weight = weight
+    this.favFood = favFood
+  }
+}
+
+class Salmon { // NOTE Salmon
+  constrcutor(name = '', color = '', gender = '', length = "", weight = 0) {
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.length = length
+    this.weight = weight
+  }
+}
+
+class Tiger { // NOTE Tiger
+  constructor(name = '', color = '', gender = '', height = '', weight = 0, ){
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.height = height
+    this.weight = weight
+  }
+}
+
+class Urial { // NOTE Urial
+  constructor(name = '', color = '', gender = '', height = '', weight = 0, hornLength = ''){
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.height = height
+    this.weight = weight
+    this.hornLength = hornLength
+  }
+}
+
+class Vulture { // NOTE Vulture
+  constructor(name = '', color = '', gender = '', wingspan = '', weight = 0) {
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.wingspan = wingspan
+    this.weight = weight
+  }
+}
+
+class Wombat { // NOTE Wombat
+  constructor(name = '', color = '', gender = '', height = '', weight = 0, earSize = ''){
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.height = height
+    this.weight = 0
+    this.earSize = ''
+  }
+}
+
+class Xeme { // NOTE Xeme
+  constructor(name = '', color = '', gender = '', wingspan = '', weight = 0) {
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.wingspan = wingspan
+    this.weight = 0
+  }
+}
+
+class Yak { // NOTE Yak
+  constructor(name = '', color = '', gender = '', height = '', weight = 0, hornsLength = "short") {
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.height = height
+    this.weight = weight
+    this.hornsLength = hornsLength
+  }
+}
+
+class Zebra { // NOTE Zebra
+  constructor(name = '', color = '', gender = '', height = '', weight = 0) {
+    this.name = name
+    this.color = color
+    this.gender = gender
+    this.height = height
+    this.weight = weight
+  }
+}
