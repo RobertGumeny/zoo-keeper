@@ -1,3 +1,4 @@
+// NOTE Define classes for all animals
 class Alpaca { // NOTE Alpaca
   constructor(name = '', color = '', gender = '', height = '', weight = 0, spits = true){
     this.name = name
@@ -277,3 +278,14 @@ class Zebra { // NOTE Zebra
     this.weight = weight
   }
 }
+
+// NOTE Create instances for some animals
+
+let alfred = new Alpaca ('alfred', 'white', 'male', 'tall', 150, true)
+let alison = new Alpaca ('alison', 'brown', 'female', 'medium', 120, false)
+let bobby = new Beaver ('bobby', 'brown', 'male', 'short', 25, 'large')
+let billy = new Beaver ('billy', 'brown', 'male', 'short', 30, 'large')
+let betty = new Beaver ('betty', 'brown', 'female', 'short', 20, 'medium')
+let charlie = new Crocodile ('charlie', 'green', 'male', 'long', 250, 'large', 54)
+let donald = new Deer ('donald', 'brown', 'male', 'medium', 150, true, "large")
+let danielle = new Deer ('danielle', 'brown', 'female', 'medium', 120, false, "none")
